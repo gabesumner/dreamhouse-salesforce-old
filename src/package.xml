@@ -21,6 +21,10 @@
         <name>AuraDefinitionBundle</name>
     </types>
     <types>
+        <members>*</members>
+        <name>ContentAsset</name>
+    </types>
+    <types>
         <members>DreamHouse</members>
         <name>CustomApplication</name>
     </types>
