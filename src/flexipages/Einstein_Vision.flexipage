@@ -5,12 +5,15 @@
             <componentName>EinsteinVisionDashboard</componentName>
         </componentInstances>
         <name>region1</name>
+        <type>Region</type>
     </flexiPageRegions>
     <flexiPageRegions>
         <name>region2</name>
+        <type>Region</type>
     </flexiPageRegions>
     <flexiPageRegions>
         <name>region3</name>
+        <type>Region</type>
     </flexiPageRegions>
     <masterLabel>Einstein Vision</masterLabel>
     <pageTemplate>flexipage:appHomeTemplateHeaderTwoColumns</pageTemplate>

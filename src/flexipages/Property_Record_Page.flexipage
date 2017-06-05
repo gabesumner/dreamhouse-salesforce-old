@@ -7,19 +7,25 @@
         <componentInstances>
             <componentName>runtime_sales_pathassistant:pathAssistant</componentName>
         </componentInstances>
+        <mode>Replace</mode>
         <name>header</name>
+        <type>Region</type>
     </flexiPageRegions>
     <flexiPageRegions>
         <componentInstances>
             <componentName>force:relatedListContainer</componentName>
         </componentInstances>
+        <mode>Replace</mode>
         <name>relatedTabContent</name>
+        <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
         <componentInstances>
             <componentName>force:detailPanel</componentName>
         </componentInstances>
+        <mode>Replace</mode>
         <name>detailTabContent</name>
+        <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
         <componentInstances>
@@ -37,6 +43,7 @@
             <componentName>forceChatter:exposedFeed</componentName>
         </componentInstances>
         <name>facet-b6179bf2-9b0b-4965-9236-b467ab38abb6</name>
+        <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
         <componentInstances>
@@ -76,7 +83,9 @@
             </componentInstanceProperties>
             <componentName>flexipage:tab</componentName>
         </componentInstances>
+        <mode>Replace</mode>
         <name>maintabs</name>
+        <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
         <componentInstances>
@@ -86,7 +95,9 @@
             </componentInstanceProperties>
             <componentName>flexipage:tabset</componentName>
         </componentInstances>
+        <mode>Replace</mode>
         <name>main</name>
+        <type>Region</type>
     </flexiPageRegions>
     <flexiPageRegions>
         <componentInstances>
@@ -115,12 +126,14 @@
             <componentName>PictureGalleryCard</componentName>
         </componentInstances>
         <name>facet-f5590bb9-9b4e-4bf3-ac0e-27a73ca22cc0</name>
+        <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
         <componentInstances>
             <componentName>runtime_sales_activities:activityPanel</componentName>
         </componentInstances>
         <name>facet-6b881274-fb70-4d98-820a-4da4f25b34b0</name>
+        <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
         <componentInstances>
@@ -146,6 +159,7 @@
             <componentName>flexipage:tab</componentName>
         </componentInstances>
         <name>facet-0a9efb7e-5072-40eb-9d8d-6adcae5213f5</name>
+        <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
         <componentInstances>
@@ -155,10 +169,13 @@
             </componentInstanceProperties>
             <componentName>flexipage:tabset</componentName>
         </componentInstances>
+        <mode>Replace</mode>
         <name>sidebar</name>
+        <type>Region</type>
     </flexiPageRegions>
     <masterLabel>Property Record Page</masterLabel>
     <pageTemplate>flexipage:recordHomeTemplateDesktop</pageTemplate>
+    <parentFlexiPage>flexipage__default_rec_L</parentFlexiPage>
     <sobjectType>Property__c</sobjectType>
     <type>RecordPage</type>
 </FlexiPage>

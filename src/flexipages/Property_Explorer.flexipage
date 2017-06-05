@@ -24,6 +24,7 @@
             <componentName>PropertyTileList</componentName>
         </componentInstances>
         <name>region1</name>
+        <type>Region</type>
     </flexiPageRegions>
     <flexiPageRegions>
         <componentInstances>
@@ -33,6 +34,7 @@
             <componentName>PropertyDaysOnMarketChart</componentName>
         </componentInstances>
         <name>region2</name>
+        <type>Region</type>
     </flexiPageRegions>
     <flexiPageRegions>
         <componentInstances>
@@ -51,6 +53,7 @@
             <componentName>MapCard</componentName>
         </componentInstances>
         <name>region3</name>
+        <type>Region</type>
     </flexiPageRegions>
     <masterLabel>Property Explorer</masterLabel>
     <pageTemplate>flexipage:appHomeTemplateTwoColumnsStacked</pageTemplate>

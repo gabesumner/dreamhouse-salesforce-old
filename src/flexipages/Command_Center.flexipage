@@ -2,12 +2,14 @@
 <FlexiPage xmlns="http://soap.sforce.com/2006/04/metadata">
     <flexiPageRegions>
         <name>region1</name>
+        <type>Region</type>
     </flexiPageRegions>
     <flexiPageRegions>
         <componentInstances>
             <componentName>PropertyListDaysOnMarketChart</componentName>
         </componentInstances>
         <name>region2</name>
+        <type>Region</type>
     </flexiPageRegions>
     <flexiPageRegions>
         <componentInstances>
@@ -20,6 +22,7 @@
             <componentName>DaysOnMarketEstimator</componentName>
         </componentInstances>
         <name>region3</name>
+        <type>Region</type>
     </flexiPageRegions>
     <masterLabel>Command Center</masterLabel>
     <pageTemplate>flexipage:appHomeTemplateHeaderTwoColumns</pageTemplate>

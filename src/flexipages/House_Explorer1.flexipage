@@ -16,6 +16,7 @@
             <componentName>PropertyTileList</componentName>
         </componentInstances>
         <name>main</name>
+        <type>Region</type>
     </flexiPageRegions>
     <masterLabel>House Explorer</masterLabel>
     <pageTemplate>flexipage:defaultAppHomeTemplate</pageTemplate>
