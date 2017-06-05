@@ -21,6 +21,10 @@
         <name>AuraDefinitionBundle</name>
     </types>
     <types>
+        <members>DreamHouse</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
         <members>Bot_Command__c</members>
         <members>Broker__c</members>
         <members>Dreamhouse_Settings__c</members>
