@@ -41,6 +41,11 @@
         <name>FlexiPage</name>
     </types>
     <types>
+        <members>Broker__c-Broker Layout</members>
+        <members>Property__c-Property Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
         <members>*</members>
         <name>StaticResource</name>
     </types>
