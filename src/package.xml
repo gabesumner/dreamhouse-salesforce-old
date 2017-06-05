@@ -42,6 +42,7 @@
     </types>
     <types>
         <members>Broker__c-Broker Layout</members>
+        <members>Favorite__c-Favorite Layout</members>
         <members>Property__c-Property Layout</members>
         <name>Layout</name>
     </types>
