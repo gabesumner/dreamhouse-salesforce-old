@@ -4,9 +4,6 @@
         <componentInstances>
             <componentName>force:highlightsPanel</componentName>
         </componentInstances>
-        <componentInstances>
-            <componentName>runtime_sales_pathassistant:pathAssistant</componentName>
-        </componentInstances>
         <mode>Replace</mode>
         <name>header</name>
         <type>Region</type>

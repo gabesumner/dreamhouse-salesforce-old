@@ -24,6 +24,7 @@
     <tab>Sample_Data_Import</tab>
     <tab>Bot_Command__c</tab>
     <tab>standard-File</tab>
+    <tab>Favorite__c</tab>
     <uiType>Lightning</uiType>
     <utilityBar>dreamhouseApplicationUtilityBar</utilityBar>
 </CustomApplication>

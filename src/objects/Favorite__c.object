@@ -64,6 +64,15 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>Recommendation__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Is this a broker recommendation?</inlineHelpText>
+        <label>Recommendation</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>User__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <externalId>false</externalId>
@@ -79,6 +88,11 @@
         <fullName>All</fullName>
         <columns>NAME</columns>
         <columns>Property__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>All1</fullName>
         <filterScope>Everything</filterScope>
         <label>All</label>
     </listViews>
