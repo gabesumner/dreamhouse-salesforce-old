@@ -53,12 +53,6 @@
         <name>Flow</name>
     </types>
     <types>
-        <members>Post_Price_Changes_to_Slack</members>
-        <members>Post_Property_Recommendation</members>
-        <members>Price_Change_Push_Notification</members>
-        <name>FlowDefinition</name>
-    </types>
-    <types>
         <members>Broker__c-Broker Layout</members>
         <members>Favorite__c-Favorite Layout</members>
         <members>Property__c-Property Layout</members>
