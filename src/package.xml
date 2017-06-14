@@ -45,7 +45,11 @@
         <name>FlexiPage</name>
     </types>
     <types>
-        <members>*</members>
+        <members>Post_Price_Changes_to_Slack</members>
+        <members>Post_Property_Recommendation</members>
+        <members>Post_Property_Recommendation-1</members>
+        <members>Price_Change_Push_Notification</members>
+        <members>Price_Change_Push_Notification-1</members>
         <name>Flow</name>
     </types>
     <types>
