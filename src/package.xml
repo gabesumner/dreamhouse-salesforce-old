@@ -59,6 +59,10 @@
         <name>Layout</name>
     </types>
     <types>
+        <members>Admin</members>
+        <name>Profile</name>
+    </types>
+    <types>
         <members>Property__c.Recommend</members>
         <members>Property__c.Smart_Home</members>
         <name>QuickAction</name>
