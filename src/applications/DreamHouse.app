@@ -12,19 +12,14 @@
     <tab>standard-home</tab>
     <tab>Property__c</tab>
     <tab>Broker__c</tab>
+    <tab>Favorite__c</tab>
     <tab>standard-Contact</tab>
     <tab>Property_Explorer1</tab>
-    <tab>Command_Center</tab>
     <tab>Einstein_Vision</tab>
-    <tab>standard-report</tab>
-    <tab>standard-Dashboard</tab>
-    <tab>standard-Event</tab>
-    <tab>Heat_Map_Mock</tab>
     <tab>Heat_Map</tab>
-    <tab>Sample_Data_Import</tab>
     <tab>Bot_Command__c</tab>
-    <tab>standard-File</tab>
-    <tab>Favorite__c</tab>
+    <tab>standard-report</tab>
+    <tab>Sample_Data_Import</tab>
     <uiType>Lightning</uiType>
     <utilityBar>dreamhouseApplicationUtilityBar</utilityBar>
 </CustomApplication>

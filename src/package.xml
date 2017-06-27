@@ -29,6 +29,7 @@
         <name>CustomApplication</name>
     </types>
     <types>
+        <members>AppActivity__c</members>
         <members>Bot_Command__c</members>
         <members>Broker__c</members>
         <members>Dreamhouse_Settings__c</members>
@@ -51,7 +52,9 @@
         <name>Flow</name>
     </types>
     <types>
+        <members>AppActivity__c-App Activity Layout</members>
         <members>Broker__c-Broker Layout</members>
+        <members>Contact-Contact %28Dreamhouse%29</members>
         <members>Favorite__c-Favorite Layout</members>
         <members>Property__c-Property Layout</members>
         <name>Layout</name>
@@ -66,8 +69,25 @@
         <name>QuickAction</name>
     </types>
     <types>
+        <members>DreamHouse_Reports</members>
+        <members>DreamHouse_Reports/App_Activity_by_Date</members>
+        <members>DreamHouse_Reports/Days_on_Market</members>
+        <members>DreamHouse_Reports/Portfolio_Health</members>
+        <members>DreamHouse_Reports/Properties_by_Broker</members>
+        <name>Report</name>
+    </types>
+    <types>
         <members>*</members>
         <name>StaticResource</name>
+    </types>
+    <types>
+        <members>AppActivity__c</members>
+        <members>Bot_Command__c</members>
+        <members>Broker__c</members>
+        <members>Dreamhouse_Settings__c</members>
+        <members>Favorite__c</members>
+        <members>Property__c</members>
+        <name>Workflow</name>
     </types>
     <version>38.0</version>
 </Package>

@@ -40,28 +40,51 @@
         <actionName>View</actionName>
         <type>Default</type>
     </actionOverrides>
-    <allowInChatterGroups>false</allowInChatterGroups>
+    <allowInChatterGroups>true</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
-    <enableReports>false</enableReports>
+    <enableReports>true</enableReports>
     <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Broker__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Broker</label>
+        <referenceTo>Broker__c</referenceTo>
+        <relationshipLabel>App Activity</relationshipLabel>
+        <relationshipName>App_Activity</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
     <fields>
         <fullName>Contact__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <externalId>false</externalId>
         <label>Contact</label>
         <referenceTo>Contact</referenceTo>
-        <relationshipLabel>Favorites</relationshipLabel>
-        <relationshipName>Favorites</relationshipName>
+        <relationshipLabel>App Activity</relationshipLabel>
+        <relationshipName>App_Activity1</relationshipName>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Item__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISBLANK(Property__c), HYPERLINK(&quot;/&quot; &amp; Broker__r.Id, Broker__r.Name, &quot;_self&quot;), HYPERLINK(&quot;/&quot; &amp; Property__r.Id, Property__r.Name, &quot;_self&quot;))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Item</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>Property__c</fullName>
@@ -69,20 +92,11 @@
         <externalId>false</externalId>
         <label>Property</label>
         <referenceTo>Property__c</referenceTo>
-        <relationshipLabel>Favorites</relationshipLabel>
-        <relationshipName>Favorites</relationshipName>
+        <relationshipLabel>App Activity</relationshipLabel>
+        <relationshipName>App_Activity1</relationshipName>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>Recommendation__c</fullName>
-        <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
-        <inlineHelpText>Is this a broker recommendation?</inlineHelpText>
-        <label>Recommendation</label>
-        <trackTrending>false</trackTrending>
-        <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>User__c</fullName>
@@ -90,30 +104,22 @@
         <externalId>false</externalId>
         <label>User</label>
         <referenceTo>User</referenceTo>
-        <relationshipName>Favorites</relationshipName>
+        <relationshipName>App_Activity1</relationshipName>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
     </fields>
-    <label>Favorite</label>
+    <label>App Activity</label>
     <listViews>
         <fullName>All</fullName>
-        <columns>NAME</columns>
-        <columns>Property__c</columns>
-        <filterScope>Everything</filterScope>
-        <label>All</label>
-    </listViews>
-    <listViews>
-        <fullName>All1</fullName>
         <filterScope>Everything</filterScope>
         <label>All</label>
     </listViews>
     <nameField>
-        <displayFormat>F-{00000000}</displayFormat>
-        <label>Favorite Name</label>
-        <type>AutoNumber</type>
+        <label>Name</label>
+        <type>Text</type>
     </nameField>
-    <pluralLabel>Favorites</pluralLabel>
+    <pluralLabel>App Activity</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
 </CustomObject>
