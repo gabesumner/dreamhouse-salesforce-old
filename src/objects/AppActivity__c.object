@@ -80,7 +80,7 @@
         <externalId>false</externalId>
         <formula>IF(ISBLANK(Property__c), HYPERLINK(&quot;/&quot; &amp; Broker__r.Id, Broker__r.Name, &quot;_self&quot;), HYPERLINK(&quot;/&quot; &amp; Property__r.Id, Property__r.Name, &quot;_self&quot;))</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-        <label>Item</label>
+        <label>Related To</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Text</type>
@@ -116,7 +116,7 @@
         <label>All</label>
     </listViews>
     <nameField>
-        <label>Name</label>
+        <label>Action</label>
         <type>Text</type>
     </nameField>
     <pluralLabel>App Activity</pluralLabel>

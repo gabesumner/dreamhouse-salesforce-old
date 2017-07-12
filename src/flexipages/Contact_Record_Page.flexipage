@@ -152,7 +152,7 @@
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>showRefreshButton</name>
-                <value>false</value>
+                <value>true</value>
             </componentInstanceProperties>
             <componentName>flexipage:reportChart</componentName>
         </componentInstances>

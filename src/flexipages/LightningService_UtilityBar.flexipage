@@ -3,6 +3,9 @@
     <description>The default utility bar for the Service Console application.</description>
     <flexiPageRegions>
         <componentInstances>
+            <componentName>console:history</componentName>
+        </componentInstances>
+        <componentInstances>
             <componentName>notes:utilityBarNoteList</componentName>
         </componentInstances>
         <name>utilityItems</name>
